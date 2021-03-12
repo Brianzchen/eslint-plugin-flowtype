@@ -30,6 +30,7 @@ const reportingRules = [
   'no-mixed',
   'object-type-curly-spacing',
   'object-type-delimiter',
+  'object-type-indent',
   'require-compound-type-alias',
   'require-inexact-type',
   'require-indexer-name',

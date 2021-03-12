@@ -1,8 +1,8 @@
-### `require-valid-file-annotation`
+### `object-type-indent`
 
 This rule validates Flow file annotations.
 
-This rule can optionally report missing or missed placed annotations, common typos (e.g. `// @flow`), and enforce a consistent annotation style.
+This rule can optionally report missing or missed placed annotations, common typos (e.g. `// @floww`), and enforce a consistent annotation style.
 
 #### Options
 
@@ -45,4 +45,4 @@ This rule has an object option:
 }
 ```
 
-<!-- assertions requireValidFileAnnotation -->
+<!-- assertions objectTypeIndent -->

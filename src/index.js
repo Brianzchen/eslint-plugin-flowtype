@@ -19,6 +19,7 @@ import noWeakTypes from './rules/noWeakTypes';
 import noMixed from './rules/noMixed';
 import objectTypeCurlySpacing from './rules/objectTypeCurlySpacing';
 import objectTypeDelimiter from './rules/objectTypeDelimiter';
+import objectTypeIndent from './rules/objectTypeIndent';
 import requireIndexerName from './rules/requireIndexerName';
 import requireCompoundTypeAlias from './rules/requireCompoundTypeAlias';
 import requireInexactType from './rules/requireInexactType';
@@ -63,6 +64,7 @@ const rules = {
   'no-weak-types': noWeakTypes,
   'object-type-curly-spacing': objectTypeCurlySpacing,
   'object-type-delimiter': objectTypeDelimiter,
+  'object-type-indent': objectTypeIndent,
   'require-compound-type-alias': requireCompoundTypeAlias,
   'require-exact-type': requireExactType,
   'require-indexer-name': requireIndexerName,
